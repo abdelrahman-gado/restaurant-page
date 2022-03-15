@@ -1,0 +1,1 @@
+(()=>{function e(e,n){const t=document.createElement("button");return t.textContent=e,t.classList.add(n),t}const n=document.querySelector("#content"),t=document.createElement("header");t.classList.add("header");const d=e("Home","nav-btn"),a=e("Menu","nav-btn"),c=e("Contact","nav-btn");t.appendChild(d),t.appendChild(a),t.appendChild(c),n.appendChild(t)})();
