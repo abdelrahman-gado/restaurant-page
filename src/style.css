@@ -37,3 +37,13 @@
     justify-content: space-around;
     background-color: blueviolet;
 }
+
+.item {
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.elements {
+    font-size: 20px;
+}
