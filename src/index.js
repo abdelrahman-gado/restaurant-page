@@ -2,7 +2,7 @@ import { menuDiv } from "./menu-tab.js";
 import { homeDiv } from "./home-tab.js";
 import { contactDiv } from "./contact-tab.js";
 
-
+(() => {
 function createButton(name, className) {
     const btn = document.createElement("button");
     btn.textContent = name;
@@ -54,3 +54,5 @@ header.appendChild(contactBtn);
 
 content.appendChild(header);
 content.appendChild(tabDiv);
+
+})();
