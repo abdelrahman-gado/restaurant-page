@@ -32,7 +32,7 @@ homeBtn.addEventListener("click", (e) => {
     tabDiv.appendChild(homeDiv);
 });
 
-
+homeBtn.autofocus = true;
 homeBtn.click();
 
 
