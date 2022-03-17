@@ -1,5 +1,5 @@
 const homeDiv = document.createElement("div");
-homeDiv.classList.add("home-div");
+homeDiv.classList.add("main-div");
 
 const heading = document.createElement("h1");
 heading.textContent = "Salasa Resturant";
