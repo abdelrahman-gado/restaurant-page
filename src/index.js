@@ -32,6 +32,10 @@ homeBtn.addEventListener("click", (e) => {
     tabDiv.appendChild(homeDiv);
 });
 
+
+homeBtn.click();
+
+
 menuBtn.addEventListener("click", (e) => {
     tabDiv.innerHTML = "";
     tabDiv.appendChild(menuDiv);
