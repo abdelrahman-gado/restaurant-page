@@ -24,7 +24,7 @@
 }
 
 
-.nav-btn:active {
+.nav-btn:focus {
     background-color: yellow;
 }
 
