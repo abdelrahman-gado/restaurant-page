@@ -1,12 +1,5 @@
 const homeDiv = document.createElement("div");
-homeDiv.style.width = "100%";
-homeDiv.style.height = "100vh";
-homeDiv.style.display = "flex";
-homeDiv.style.flexDirection = "column";
-homeDiv.style.alignItems = "center";
-homeDiv.style.justifyContent = "space-around";
-homeDiv.style.backgroundColor = "red"
-
+homeDiv.classList.add("home-div");
 
 const heading = document.createElement("h1");
 heading.textContent = "Salasa Resturant";
